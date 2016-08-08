@@ -9,6 +9,9 @@ body {
     width: 1000px;
     height: 988px;
     background-color: #ffffff;
+    -webkit-box-shadow: 0px 10px 26px -6px rgba(0,0,0,1);
+    -moz-box-shadow: 0px 10px 26px -6px rgba(0,0,0,1);
+    box-shadow: 0px 10px 26px -6px rgba(0,0,0,1);
 }
 .clearfix:after {
     content: '';
@@ -110,6 +113,10 @@ body {
 }
 
 /*PHOTO*/
+.photo {
+  height: 238px;
+}
+
 .photo img {
     border-top: 1px solid #128aa7;
     border-bottom: 1px solid #128aa7;
@@ -177,7 +184,7 @@ ul.menu > li:hover > ul.submenu {
 /*FON*/
 .fon {
   width: 1000px;
-  height: 543px;
+  height: 546px;
   float: left;
   background-color: #ffffff;
 }
@@ -185,7 +192,7 @@ ul.menu > li:hover > ul.submenu {
 .sidebar {
   float: left;
   width: 208px;
-  height: 543px;
+  height: 546px;
   border-left: 1px solid #c7cacf;
   border-right: 1px solid #c7cacf;
   background-color: #edeef0;
@@ -194,14 +201,38 @@ ul.menu > li:hover > ul.submenu {
 .content {
   float: left;
   width: 580px;
-  height: 543px;
+  height: 546px;
 }
 
 .news {
   float: left;
   width: 208px;
-  height: 543px;
+  height: 546px;
   border-left: 1px solid #c7cacf;
   border-right: 1px solid #c7cacf;
   background-color: #edeef0;
+}
+
+.headline {
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
+    padding-top: 10px;
+    color: #424c43;
+}
+
+.info li a{
+  display: block;
+  padding: 10px 0 0 14px;
+  font-size: 14px;
+  color: #424c43;
+  text-align: left;
+  text-decoration: none;
+}
+
+.copyright {
+  font-size: 12px;
+  color: #ffffff;
+  line-height: 1.2;
+  text-align: center;
 }
