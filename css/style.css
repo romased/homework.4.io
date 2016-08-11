@@ -123,6 +123,9 @@ body {
   }
 
 /*MENU*/
+.navigation {
+  background-color: #333333;
+}
 
 ul.menu:after {
     display: block;
@@ -138,26 +141,24 @@ ul.menu > li {
 
 ul.menu > li > a {
     display: block;
-    padding: 8px 10px 7px 10px;
+    padding: 8px 11px 7px 11px;
     color: white;
-    width: 116px;
+    width: 120px;
     font-size: 14px;
     text-align: left;
-    background-color: #323232;
     text-decoration: none;
 }
 
 ul.menu > li > a:hover {
-    background-color: #323232;
+    background-color: #333333;
 }
 
 ul.submenu {
     display: none;
     position: absolute;
-    width: 136px;
-    top: 29px;
-    left: 0;
-    background-color: #323232;
+    width: 142px;
+    top: 28px;
+    background-color: #333333;
 }
 
 ul.submenu > li {
@@ -168,7 +169,6 @@ ul.submenu > li > a {
     display: block;
     padding: 5px 0 5px 10px;
     color: white;
-    background-color: #323232;
     font-size: 14px;
     text-decoration: none;
 }
@@ -229,7 +229,12 @@ ul.menu > li:hover > ul.submenu {
   text-align: left;
   text-decoration: none;
 }
-
+/*FOOTER*/
+.footer {
+  height: 31px;
+  margin-top: 10px;
+  padding-top: 10px;
+}
 .copyright {
   font-size: 12px;
   color: #ffffff;
